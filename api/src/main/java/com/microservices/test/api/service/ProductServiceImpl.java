@@ -17,7 +17,7 @@ public class ProductServiceImpl implements ProductService {
     private ProductRepository productRepository;
 
     @Override
-    public void createProduct(String name) {
+    public void createProduct(String name, Double price) {
 
     }
 }

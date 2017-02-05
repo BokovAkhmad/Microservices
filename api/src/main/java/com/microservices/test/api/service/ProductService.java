@@ -5,5 +5,5 @@ package com.microservices.test.api.service;
  */
 public interface ProductService {
 
-    void createProduct(String name);
+    void createProduct(String name, Double price);
 }
